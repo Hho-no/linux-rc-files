@@ -6,7 +6,9 @@ set wildchar=<tab>
 let loaded_matchparen=1
 set numberwidth=2
 set number
-set foldmethod=marker
+if exists('+folding')
+	set foldmethod=marker
+endif
 set list
 set listchars=tab:\|\ 
 map <F2> :WMToggle<CR>
