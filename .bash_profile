@@ -11,3 +11,5 @@ PATH=$HOME/bin:$PATH
 
 export PATH
 unset USERNAME
+
+stty -ixon
